@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+    font-size: 17px;
+    background-image: url(10.webp)
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(248, 241, 243, 0.993);
+}
+
+.nav{
+    background-color: rgb(255, 94, 0);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav h1{
+    font-size: 30px;
+    padding-left: 100px;
+    padding-inline-end: 10px;
+    color: beige;
+}
+
+.nav li{
+    color: black;
+    display: inline-block;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.list-anime{  
+    padding: 20px;
+    padding-left: 95px;
+    
+}
+
+.list-anime li{
+    display: inline-block;
+    
+}
+
+.list-anime img{
+    width: 200px;
+    height: 250px;
+    padding: 3px;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+
+
